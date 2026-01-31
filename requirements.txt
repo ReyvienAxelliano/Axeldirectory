@@ -1,9 +1,23 @@
+# Core dependencies
 PyQt5>=5.15.0
 tinytag>=1.8.0
 rapidfuzz>=3.0.0
-pyqtdarktheme>=2.1.0
-
-# Opsional untuk waveform yang lebih baik
 numpy>=1.21.0
-scipy>=1.7.0
-pydub>=0.25.1
+qdarkstyle>=3.1.0
+
+# Audio/video processing
+moviepy>=1.0.3
+imageio>=2.19.0
+imageio-ffmpeg>=0.4.8  # Required for moviepy video processing
+pydub>=0.25.1  # Optional alternative audio backend
+
+# Audio codecs for pydub (optional)
+# On Windows, you might need to install ffmpeg separately or via:
+# pip install ffmpeg-python
+
+# For better performance
+setuptools>=65.0.0
+
+# Platform specific notes:
+# Windows: May need to install Microsoft Visual C++ Redistributable
+# macOS/Linux: May need ffmpeg installed system-wide
