@@ -9,7 +9,8 @@
 
 ## 📸 Screenshots
 
-![Main Interface](https://via.placeholder.com/800x450/2C3E50/FFFFFF?text=Axeldirectory+Alpha+Interface)
+![Main Interface]
+<img width="1920" height="1198" alt="Screenshot 2026-02-01 010200" src="https://github.com/user-attachments/assets/80c2be96-c764-46bf-a568-801c44ef60f7" />
 *Modern dark interface with waveform visualization*
 
 ## ✨ Features
